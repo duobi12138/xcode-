@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90E336D2C08C581004193E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B90E336C2C08C581004193E5 /* AppDelegate.m */; };
+		B90E33702C08C581004193E5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B90E336F2C08C581004193E5 /* SceneDelegate.m */; };
+		B90E33732C08C581004193E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90E33722C08C581004193E5 /* ViewController.m */; };
+		B90E33762C08C581004193E5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B90E33752C08C581004193E5 /* Base */; };
+		B90E33782C08C583004193E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90E33772C08C583004193E5 /* Assets.xcassets */; };
+		B90E337B2C08C583004193E5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B90E337A2C08C583004193E5 /* Base */; };
+		B90E337E2C08C583004193E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B90E337D2C08C583004193E5 /* main.m */; };
+		B90E33882C08C583004193E5 /* UISwitch__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90E33872C08C583004193E5 /* UISwitch__Tests.m */; };
+		B90E33922C08C583004193E5 /* UISwitch__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90E33912C08C583004193E5 /* UISwitch__UITests.m */; };
+		B90E33942C08C583004193E5 /* UISwitch__UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90E33932C08C583004193E5 /* UISwitch__UITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B90E33842C08C583004193E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90E33602C08C581004193E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90E33672C08C581004193E5;
+			remoteInfo = "UISwitch控件";
+		};
+		B90E338E2C08C583004193E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90E33602C08C581004193E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90E33672C08C581004193E5;
+			remoteInfo = "UISwitch控件";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B90E33682C08C581004193E5 /* UISwitch控件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UISwitch控件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90E336B2C08C581004193E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B90E336C2C08C581004193E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B90E336E2C08C581004193E5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B90E336F2C08C581004193E5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B90E33712C08C581004193E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B90E33722C08C581004193E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B90E33752C08C581004193E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B90E33772C08C583004193E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B90E337A2C08C583004193E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B90E337C2C08C583004193E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90E337D2C08C583004193E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B90E33832C08C583004193E5 /* UISwitch控件Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UISwitch控件Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90E33872C08C583004193E5 /* UISwitch__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISwitch__Tests.m; sourceTree = "<group>"; };
+		B90E338D2C08C583004193E5 /* UISwitch控件UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UISwitch控件UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90E33912C08C583004193E5 /* UISwitch__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISwitch__UITests.m; sourceTree = "<group>"; };
+		B90E33932C08C583004193E5 /* UISwitch__UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISwitch__UITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B90E33652C08C581004193E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90E33802C08C583004193E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90E338A2C08C583004193E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B90E335F2C08C581004193E5 = {
+			isa = PBXGroup;
+			children = (
+				B90E336A2C08C581004193E5 /* UISwitch控件 */,
+				B90E33862C08C583004193E5 /* UISwitch控件Tests */,
+				B90E33902C08C583004193E5 /* UISwitch控件UITests */,
+				B90E33692C08C581004193E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B90E33692C08C581004193E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B90E33682C08C581004193E5 /* UISwitch控件.app */,
+				B90E33832C08C583004193E5 /* UISwitch控件Tests.xctest */,
+				B90E338D2C08C583004193E5 /* UISwitch控件UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B90E336A2C08C581004193E5 /* UISwitch控件 */ = {
+			isa = PBXGroup;
+			children = (
+				B90E336B2C08C581004193E5 /* AppDelegate.h */,
+				B90E336C2C08C581004193E5 /* AppDelegate.m */,
+				B90E336E2C08C581004193E5 /* SceneDelegate.h */,
+				B90E336F2C08C581004193E5 /* SceneDelegate.m */,
+				B90E33712C08C581004193E5 /* ViewController.h */,
+				B90E33722C08C581004193E5 /* ViewController.m */,
+				B90E33742C08C581004193E5 /* Main.storyboard */,
+				B90E33772C08C583004193E5 /* Assets.xcassets */,
+				B90E33792C08C583004193E5 /* LaunchScreen.storyboard */,
+				B90E337C2C08C583004193E5 /* Info.plist */,
+				B90E337D2C08C583004193E5 /* main.m */,
+			);
+			path = "UISwitch控件";
+			sourceTree = "<group>";
+		};
+		B90E33862C08C583004193E5 /* UISwitch控件Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B90E33872C08C583004193E5 /* UISwitch__Tests.m */,
+			);
+			path = "UISwitch控件Tests";
+			sourceTree = "<group>";
+		};
+		B90E33902C08C583004193E5 /* UISwitch控件UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B90E33912C08C583004193E5 /* UISwitch__UITests.m */,
+				B90E33932C08C583004193E5 /* UISwitch__UITestsLaunchTests.m */,
+			);
+			path = "UISwitch控件UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B90E33672C08C581004193E5 /* UISwitch控件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90E33972C08C583004193E5 /* Build configuration list for PBXNativeTarget "UISwitch控件" */;
+			buildPhases = (
+				B90E33642C08C581004193E5 /* Sources */,
+				B90E33652C08C581004193E5 /* Frameworks */,
+				B90E33662C08C581004193E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UISwitch控件";
+			productName = "UISwitch控件";
+			productReference = B90E33682C08C581004193E5 /* UISwitch控件.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B90E33822C08C583004193E5 /* UISwitch控件Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90E339A2C08C583004193E5 /* Build configuration list for PBXNativeTarget "UISwitch控件Tests" */;
+			buildPhases = (
+				B90E337F2C08C583004193E5 /* Sources */,
+				B90E33802C08C583004193E5 /* Frameworks */,
+				B90E33812C08C583004193E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90E33852C08C583004193E5 /* PBXTargetDependency */,
+			);
+			name = "UISwitch控件Tests";
+			productName = "UISwitch控件Tests";
+			productReference = B90E33832C08C583004193E5 /* UISwitch控件Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B90E338C2C08C583004193E5 /* UISwitch控件UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90E339D2C08C583004193E5 /* Build configuration list for PBXNativeTarget "UISwitch控件UITests" */;
+			buildPhases = (
+				B90E33892C08C583004193E5 /* Sources */,
+				B90E338A2C08C583004193E5 /* Frameworks */,
+				B90E338B2C08C583004193E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90E338F2C08C583004193E5 /* PBXTargetDependency */,
+			);
+			name = "UISwitch控件UITests";
+			productName = "UISwitch控件UITests";
+			productReference = B90E338D2C08C583004193E5 /* UISwitch控件UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B90E33602C08C581004193E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B90E33672C08C581004193E5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					B90E33822C08C583004193E5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B90E33672C08C581004193E5;
+					};
+					B90E338C2C08C583004193E5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B90E33672C08C581004193E5;
+					};
+				};
+			};
+			buildConfigurationList = B90E33632C08C581004193E5 /* Build configuration list for PBXProject "UISwitch控件" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B90E335F2C08C581004193E5;
+			productRefGroup = B90E33692C08C581004193E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B90E33672C08C581004193E5 /* UISwitch控件 */,
+				B90E33822C08C583004193E5 /* UISwitch控件Tests */,
+				B90E338C2C08C583004193E5 /* UISwitch控件UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B90E33662C08C581004193E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90E33782C08C583004193E5 /* Assets.xcassets in Resources */,
+				B90E337B2C08C583004193E5 /* Base in Resources */,
+				B90E33762C08C581004193E5 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90E33812C08C583004193E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90E338B2C08C583004193E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B90E33642C08C581004193E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90E33732C08C581004193E5 /* ViewController.m in Sources */,
+				B90E336D2C08C581004193E5 /* AppDelegate.m in Sources */,
+				B90E337E2C08C583004193E5 /* main.m in Sources */,
+				B90E33702C08C581004193E5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90E337F2C08C583004193E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90E33882C08C583004193E5 /* UISwitch__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90E33892C08C583004193E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90E33942C08C583004193E5 /* UISwitch__UITestsLaunchTests.m in Sources */,
+				B90E33922C08C583004193E5 /* UISwitch__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B90E33852C08C583004193E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B90E33672C08C581004193E5 /* UISwitch控件 */;
+			targetProxy = B90E33842C08C583004193E5 /* PBXContainerItemProxy */;
+		};
+		B90E338F2C08C583004193E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B90E33672C08C581004193E5 /* UISwitch控件 */;
+			targetProxy = B90E338E2C08C583004193E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B90E33742C08C581004193E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90E33752C08C581004193E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B90E33792C08C583004193E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90E337A2C08C583004193E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B90E33952C08C583004193E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B90E33962C08C583004193E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B90E33982C08C583004193E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UISwitch控件/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhizuobiao.UISwitch--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B90E33992C08C583004193E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UISwitch控件/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhizuobiao.UISwitch--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B90E339B2C08C583004193E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhizuobiao.UISwitch--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISwitch控件.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UISwitch控件";
+			};
+			name = Debug;
+		};
+		B90E339C2C08C583004193E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhizuobiao.UISwitch--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISwitch控件.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UISwitch控件";
+			};
+			name = Release;
+		};
+		B90E339E2C08C583004193E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhizuobiao.UISwitch--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UISwitch控件";
+			};
+			name = Debug;
+		};
+		B90E339F2C08C583004193E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhizuobiao.UISwitch--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UISwitch控件";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B90E33632C08C581004193E5 /* Build configuration list for PBXProject "UISwitch控件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90E33952C08C583004193E5 /* Debug */,
+				B90E33962C08C583004193E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90E33972C08C583004193E5 /* Build configuration list for PBXNativeTarget "UISwitch控件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90E33982C08C583004193E5 /* Debug */,
+				B90E33992C08C583004193E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90E339A2C08C583004193E5 /* Build configuration list for PBXNativeTarget "UISwitch控件Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90E339B2C08C583004193E5 /* Debug */,
+				B90E339C2C08C583004193E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90E339D2C08C583004193E5 /* Build configuration list for PBXNativeTarget "UISwitch控件UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90E339E2C08C583004193E5 /* Debug */,
+				B90E339F2C08C583004193E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B90E33602C08C581004193E5 /* Project object */;
+}
